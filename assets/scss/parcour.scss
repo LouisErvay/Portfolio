@@ -1,0 +1,43 @@
+.parcour{
+    background-color: #444;
+    width: 100%;
+    z-index: 1;
+    .parcour-container{
+        justify-content: space-between;
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 20vh 0;
+        .card-container{
+            display: flex;
+            flex-direction: column;
+            padding: 10px 0;
+            .card-experience{
+                .periode{
+                    font-style: italic;
+                }
+                .intitule{
+                    font-weight: 600;
+                    font-size: 20;
+                }
+                .localisation{
+                    font-weight: 600;
+                }
+                .techno-container{
+                    display: flex;
+                    .techno{
+                        margin: 0 10px;
+                        border: solid #444 2px;
+                        border-radius: 8px;
+                        background-color: #000;
+                        color: #fff;
+                        padding: 4px 6px;
+                        &:nth-child(1){
+                            margin: 0 10px 0 0;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}

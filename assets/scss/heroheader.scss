@@ -1,0 +1,43 @@
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.heroheader{
+    background-color: #333;
+    width: 100%;
+    z-index: 1;
+    .heroheader-container{
+        display: flex;
+        justify-content: space-between;
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 20vh 0;
+        .heroheader-content{
+            width: 35%;
+            margin-left: 5%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .heroheader-img{
+            width: 49%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 70%;
+                animation: floating 5s ease-in-out infinite ;
+            }
+        }
+    }
+
+}

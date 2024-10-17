@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600
+}
+
+@import 'assets/scss/header.scss';
+@import 'assets/scss/heroheader.scss';
+@import 'assets/scss/parcour.scss';
