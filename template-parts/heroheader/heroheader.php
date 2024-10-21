@@ -4,9 +4,13 @@
             <h1 class="hero-title">
                 Bonjour, </br>
                 Je suis Louis Ervay, </br>
-                Développeur !
+                Développeur
             </h1>
             <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates maxime fugiat optio ad quisquam autem recusandae voluptatibus iusto quaerat, ea aliquam perspiciatis eos officiis ullam velit molestias a id earum!
+            </p>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates maxime fugiat optio ad quisquam autem recusandae voluptatibus iusto quaerat, ea aliquam perspiciatis eos officiis ullam velit molestias a id earum!
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates maxime fugiat optio ad quisquam autem recusandae voluptatibus iusto quaerat, ea aliquam perspiciatis eos officiis ullam velit molestias a id earum!
             </p>
         </div>

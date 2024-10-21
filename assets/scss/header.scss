@@ -1,11 +1,14 @@
+@import 'variables.scss';
+
 .header_nav {
-width: 100%;
-height: 80px;
-z-index: 999;
-display: flex;
-align-items: center;
-justify-content: space-around;
-font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to left, #0c0d13 0%, #0d1d31 40%, #0d1d31 60%, #0c0d13 100%);
+    width: 100%;
+    height: 80px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
 .logo{
     a{
         text-decoration: none;
@@ -16,35 +19,36 @@ font-family: 'Roboto', sans-serif;
         display: flex;
         .reseaux_sociaux{
             .social-btn{
-                border: #000 0.5px solid;
+                border: $primary-color 0.5px solid;
                 border-radius: 50%;
                 overflow: hidden;
                 display: inline-block;
                 padding: 4px;
                 margin-left: 15px;
                 i{
-                    color: #000;
                     transition: all .5s ease-in-out;
                     &:hover{
                         transition: all .5s ease-in-out;
-                        color: #fff;
+                        color: $primary-color-hover;
                     }
                 }
             }
         }
         ul{
             display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 46px;
             li{
                 list-style: none;
                 margin: 0 15px;
                 a{
                     text-decoration: none;
-                    color: #000;
                     transition: all .5 ease-in-out;
                     scale: 1;
                     &:hover{
                         transition: all .5 ease-in-out;
-                        color: #333;
+                        color: $primary-color-hover;
                     }
                 }
             }

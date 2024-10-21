@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  color: #f0f0f0;
 }
 
 h1 {
@@ -8,7 +9,13 @@ h1 {
   font-weight: 600;
 }
 
+.site {
+  background-color: #0c0d13;
+  padding: 0 100px;
+}
+
 .header_nav {
+  background: linear-gradient(to left, #0c0d13 0%, #0d1d31 40%, #0d1d31 60%, #0c0d13 100%);
   width: 100%;
   height: 80px;
   z-index: 999;
@@ -25,7 +32,7 @@ h1 {
   display: flex;
 }
 .header_nav .menu .reseaux_sociaux .social-btn {
-  border: #000 0.5px solid;
+  border: #f0f0f0 0.5px solid;
   border-radius: 50%;
   overflow: hidden;
   display: inline-block;
@@ -33,15 +40,17 @@ h1 {
   margin-left: 15px;
 }
 .header_nav .menu .reseaux_sociaux .social-btn i {
-  color: #000;
   transition: all 0.5s ease-in-out;
 }
 .header_nav .menu .reseaux_sociaux .social-btn i:hover {
   transition: all 0.5s ease-in-out;
-  color: #fff;
+  color: #999;
 }
 .header_nav .menu ul {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 46px;
 }
 .header_nav .menu ul li {
   list-style: none;
@@ -49,13 +58,12 @@ h1 {
 }
 .header_nav .menu ul li a {
   text-decoration: none;
-  color: #000;
   transition: all 0.5 ease-in-out;
   scale: 1;
 }
 .header_nav .menu ul li a:hover {
   transition: all 0.5 ease-in-out;
-  color: #333;
+  color: #999;
 }
 
 @keyframes floating {
@@ -63,14 +71,14 @@ h1 {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(-22px);
   }
   100% {
     transform: translateY(0);
   }
 }
 .heroheader {
-  background-color: #333;
+  background: linear-gradient(to left, #0c0d13 0%, #0d1d31 40%, #0d1d31 60%, #0c0d13 100%);
   width: 100%;
   z-index: 1;
 }
@@ -83,11 +91,20 @@ h1 {
 }
 .heroheader .heroheader-container .heroheader-content {
   width: 35%;
-  margin-left: 5%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.heroheader .heroheader-container .heroheader-content .hero-title {
+  font-size: 32px;
+  line-height: 1.3;
+  padding-bottom: 50px;
+}
+.heroheader .heroheader-container .heroheader-content p {
+  padding-bottom: 30px;
+  font-size: 18px;
+  line-height: 1.2;
 }
 .heroheader .heroheader-container .heroheader-img {
   width: 49%;
@@ -101,7 +118,7 @@ h1 {
 }
 
 .parcour {
-  background-color: #444;
+  background: linear-gradient(to left, #0c0d13 0%, #0d1d31 40%, #0d1d31 60%, #0c0d13 100%);
   width: 100%;
   z-index: 1;
 }
@@ -111,10 +128,16 @@ h1 {
   margin: 0 auto;
   padding: 20vh 0;
 }
+.parcour .parcour-container h2 {
+  margin-bottom: 20px;
+}
 .parcour .parcour-container .card-container {
   display: flex;
   flex-direction: column;
   padding: 10px 0;
+}
+.parcour .parcour-container .card-container .card-experience {
+  padding-bottom: 40px;
 }
 .parcour .parcour-container .card-container .card-experience .periode {
   font-style: italic;
@@ -127,6 +150,7 @@ h1 {
   font-weight: 600;
 }
 .parcour .parcour-container .card-container .card-experience .techno-container {
+  padding-top: 5px;
   display: flex;
 }
 .parcour .parcour-container .card-container .card-experience .techno-container .techno {
@@ -134,7 +158,6 @@ h1 {
   border: solid #444 2px;
   border-radius: 8px;
   background-color: #000;
-  color: #fff;
   padding: 4px 6px;
 }
 .parcour .parcour-container .card-container .card-experience .techno-container .techno:nth-child(1) {

@@ -1,10 +1,17 @@
+@import 'assets/scss/variables.scss';
+
 *{
     margin: 0;
     padding: 0;
+    color: $primary-color;
 }
 h1{
     font-family: 'Roboto', sans-serif;
     font-weight: 600
+}
+.site{
+    background-color: #0c0d13;
+    padding: 0 100px
 }
 
 @import 'assets/scss/header.scss';
